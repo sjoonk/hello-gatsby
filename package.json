@@ -1,18 +1,19 @@
 {
-  "name": "hello-gatsby",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "gatsby-starter-blog-theme",
+  "private": true,
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "0BSD",
   "dependencies": {
-    "gatsby": "^2.24.34",
+    "gatsby": "^2.24.26",
     "gatsby-theme-blog": "^2.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "theme-ui": "^0.3.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "theme-ui": "0.4.0-alpha.3"
   }
 }
